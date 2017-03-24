@@ -1,0 +1,28 @@
+# == Schema Information
+#
+# Table name: bills
+#
+#  id            :integer          not null, primary key
+#  customer_id   :integer
+#  state_id      :integer
+#  date          :datetime
+#  cash_discount :integer
+#  state         :boolean
+#  delete_at     :datetime
+#  created_at    :datetime         not null
+#  updated_at    :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2016-08-22 15:00:27
+  cash_discount: 1
+  state: false
+  delete_at: 2016-08-22 15:00:27
+
+two:
+  date: 2016-08-22 15:00:27
+  cash_discount: 1
+  state: false
+  delete_at: 2016-08-22 15:00:27

@@ -1,0 +1,32 @@
+<h1>HSV Styler</h1>
+
+<p>Hi <%= @user.name %>,</p>
+
+<p>
+Your bill is done. We'll contact to you as soon as posible.<br> Your goods will be shipped in as least 3 day after now!
+</p>
+
+<p>Your bill is below: </p>
+<tbody>
+  <tr>
+    <th>Product ID</th>
+    <th>Product Name</th>
+    <th>Price</th>
+    <th>Size</th>
+    <th>Color</th>
+    <th>Quantity</th>
+  </tr>
+  <% @all_bills_details.each do |bill|%>
+  <tr>
+    <td><%= bill.product_id %></td>
+    <td><%= bill.fashion_name %></td>
+    <td><%= bill.product_price %></td>
+    <td><%= bill.size %></td>
+    <td><%= bill.color %></td>
+    <td><%= bill.quantity %></td>
+  </tr>
+  <% end %>
+
+</tbody>
+<br><br>
+<p>Thank you and see you soon!</p>

@@ -1,0 +1,53 @@
+# == Schema Information
+#
+# Table name: products
+#
+#  id                :integer          not null, primary key
+#  category_id       :integer
+#  producer_id       :integer
+#  sex_id            :integer
+#  name              :string
+#  price             :float
+#  quantity          :integer
+#  cash_discount     :integer
+#  image             :string
+#  title             :string
+#  color             :string
+#  size              :string
+#  designed          :string
+#  content           :string
+#  order_information :string
+#  delete_at         :datetime
+#  created_at        :datetime         not null
+#  updated_at        :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  price: 1.5
+  quantity: 1
+  cash_discount: 1
+  image: MyString
+  title: MyString
+  color: MyString
+  size: MyString
+  designed: MyString
+  content: MyString
+  order_information: MyString
+  delete_at: 2016-08-22 14:53:09
+
+two:
+  name: MyString
+  price: 1.5
+  quantity: 1
+  cash_discount: 1
+  image: MyString
+  title: MyString
+  color: MyString
+  size: MyString
+  designed: MyString
+  content: MyString
+  order_information: MyString
+  delete_at: 2016-08-22 14:53:09

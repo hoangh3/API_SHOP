@@ -1,0 +1,25 @@
+# == Schema Information
+#
+# Table name: receip_note_details
+#
+#  id             :integer          not null, primary key
+#  receip_note_id :integer
+#  product_id     :integer
+#  quantity       :integer
+#  price          :float
+#  delete_at      :datetime
+#  created_at     :datetime         not null
+#  updated_at     :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  quantity: 1
+  price: 1.5
+  delete_at: 2016-08-22 15:11:34
+
+two:
+  quantity: 1
+  price: 1.5
+  delete_at: 2016-08-22 15:11:34
